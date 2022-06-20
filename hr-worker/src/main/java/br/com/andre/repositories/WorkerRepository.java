@@ -8,6 +8,6 @@ import br.com.andre.entities.Worker;
 @Repository
 public interface WorkerRepository extends JpaRepository<Worker, Long>{
 
-	//public Worker findByName(String name);
+	public Worker findByName(String name);
 	
 }
